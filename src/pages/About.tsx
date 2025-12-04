@@ -100,7 +100,7 @@ export default function About() {
           <div className="flex flex-col md:flex-row gap-8 items-start">
             <div className="flex-shrink-0">
               <img
-                src="src/assets/profile.jpeg"
+                src="../assets/profile.jpeg"
                 alt="서윤교 프로필"
                 className="w-48 h-60 rounded-lg object-cover border-2"
               />
