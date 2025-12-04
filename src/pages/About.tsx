@@ -25,7 +25,7 @@ import {
 export default function About() {
   const experiences = [
     {
-      company: '주식회사 램플',
+      company: '주식회사 램플 (ICT 학점연계 인턴십)',
       position: '인턴',
       period: '2025.09 - 2025.12',
       description:
@@ -100,7 +100,7 @@ export default function About() {
           <div className="flex flex-col md:flex-row gap-8 items-start">
             <div className="flex-shrink-0">
               <img
-                src="/images/profile.jpeg"
+                src="src/assets/profile.jpeg"
                 alt="서윤교 프로필"
                 className="w-48 h-60 rounded-lg object-cover border-2"
               />

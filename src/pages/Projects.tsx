@@ -20,7 +20,6 @@ export default function Projects() {
       tags: [
         'React',
         'TypeScript',
-        'Vite',
         'Chakra UI',
         'Solidity',
         'Ethereum',

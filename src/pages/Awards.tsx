@@ -13,13 +13,13 @@ export default function Awards() {
       title: '2025 대경권 대학생 프로그래밍 경진대회',
       award: '우수상',
       date: '2025.05.27',
-      organization: '영남대학교 | SW중심대학 사업단',
+      organization: '영남대학교 | SW중심대학 사업단 | C++',
     },
     {
       title: '2024 대경권 대학생 프로그래밍 경진대회',
       award: '우수상',
       date: '2024.05.17',
-      organization: '영남대학교 | SW중심대학 사업단',
+      organization: '영남대학교 | SW중심대학 사업단 | C++',
     },
   ];
 
