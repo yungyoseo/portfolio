@@ -21,6 +21,8 @@ import {
   SiEthereum,
   SiUbuntu,
 } from 'react-icons/si';
+import profileImg from '../assets/profile.jpeg'
+
 
 export default function About() {
   const experiences = [
@@ -100,7 +102,7 @@ export default function About() {
           <div className="flex flex-col md:flex-row gap-8 items-start">
             <div className="flex-shrink-0">
               <img
-                src="../assets/profile.jpeg"
+                src={profileImg}
                 alt="서윤교 프로필"
                 className="w-48 h-60 rounded-lg object-cover border-2"
               />
