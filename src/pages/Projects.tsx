@@ -32,11 +32,11 @@ export default function Projects() {
         'MinIO + Express를 활용한 이미지 서버 구축',
         'Ubuntu Server 24.04 LTS, Cloudflare, Nginx 기반 인프라 구축',
       ],
-      achievements: ['결제 수수료 대폭 절감 가능성 확인'],
+      achievements: ['Web3 기술을 활용한 실제 서비스 개발 경험', '블록체인 기반 결제 시스템 구현 경험', '인프라 설계 및 구축 경험'],
       techStack: {
-        frontend: 'React, TypeScript, Vite, Chakra UI',
+        frontend: 'React, TypeScript, Chakra UI',
         backend: 'Java, Spring, MySQL, Redis (팀원 담당)',
-        imageServer: 'MinIO, Express (본인 개발)',
+        imageServer: 'MinIO, Express',
         infrastructure: 'Ubuntu Server 24.04 LTS, Cloudflare Proxy, Nginx',
         blockchain: 'Solidity, Ethereum',
       },
@@ -78,7 +78,7 @@ export default function Projects() {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">프로젝트</h1>
           <p className="text-gray-600 text-lg">
-            진행했던 프로젝트들과 주요 성과를 소개합니다.
+            진행했던 주요 프로젝트입니다.
           </p>
         </div>
 
@@ -86,7 +86,7 @@ export default function Projects() {
         <div className="space-y-12">
           {projects.map((project, index) => (
             <Card key={index} className="overflow-hidden">
-              <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50">
+              <CardHeader className="py-12 bg-gradient-to-r from-blue-50 to-purple-50">
                 <div className="flex justify-between items-start flex-wrap gap-4">
                   <div>
                     <CardTitle className="text-3xl mb-2">

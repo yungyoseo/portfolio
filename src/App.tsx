@@ -8,11 +8,11 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/awards" element={<Awards />} />
-        <Route path="/certification" element={<Certification />} />
+        <Route path="/portfolio/" element={<Home />} />
+        <Route path="/portfolio/about" element={<About />} />
+        <Route path="/portfolio/projects" element={<Projects />} />
+        <Route path="/portfolio/awards" element={<Awards />} />
+        <Route path="/portfolio/certification" element={<Certification />} />
       </Routes>
     </>
   );
